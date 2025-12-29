@@ -1,0 +1,18 @@
+{
+    "ide": {
+        "hasSeenNudge": true
+    },
+    "mcpServers": {
+        "zoo-remote": {
+            "httpUrl": "https://zoo-mcp-server-lu3c35neiq-uc.a.run.app/mcp",
+            "headers": {
+                "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjQ5NmQwMDhlOGM3YmUxY2FlNDIwOWUwZDVjMjFiMDUwYTYxZTk2MGYiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIzMjU1NTk0MDU1OS5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsImF1ZCI6IjMyNTU1OTQwNTU5LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTEwODc5MzEzMzU5MTI4ODEzNTcxIiwiZW1haWwiOiJyeWFubWFyazIwMTRAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF0X2hhc2giOiIyXzhJLVFkcFVlZmtUV3VmdzB3ZnB3IiwiaWF0IjoxNzY2OTc2MDk0LCJleHAiOjE3NjY5Nzk2OTR9.VfjpjAXTjd5RKAN81_eJvEqqc_sCvanICTHply9ZclfY8C1YXF1erRWYeVjX-ty3EgdnpEvLs-g3-_L33MUCm8OUGRZ1NpHcE6kjpO9Ej0BWqNlz0d7oc50zkYQ5eX1DUw5VMiQDAomrypk57JxPhtYySY9Omk9dWC2Yye_9r70ZdWLXDO4LwdDajV3mhpmvkZxiI3whDo-KtsA4fd7__0NNhWNfjv4I2C7B3OinJfQMWe6_7aObeHIzCWWeHve7TRAV13jsAXjWoyqcFU9ouTDXU-zydD8Of1HbNp8vKyJyuYdq5XwcA1fOmk72rezJO2PBRyvVOdeTLpfKsnDN1w"
+            }
+        }
+    },
+    "security": {
+        "auth": {
+            "selectedType": "cloud-shell"
+        }
+    }
+}

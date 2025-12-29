@@ -2,7 +2,7 @@
 
 Run https://codelabs.developers.google.com/codelabs/cloud-run/how-to-deploy-a-secure-mcp-server-on-cloud-run with basic prompt and rules
 
-PREP:
+## PREP:
 - Define rules for Antigravity to follow by getting Antigravity to define its own rule for reasonable actions to take to mimic a journeyman user.
 - Confirm that browser opens correctly
     - open https://codelabs.developers.google.com/codelabs/cloud-run/how-to-deploy-a-secure-mcp-server-on-cloud-run in your browser
@@ -12,7 +12,7 @@ PREP:
     - PROJECT_NUMBER: 632816321420
     - REGION: us-central1
 
-PROMPT:
+## PROMPT:
 
 ```
 Complete the steps in https://codelabs.developers.google.com/codelabs/cloud-run/how-to-deploy-a-secure-mcp-server-on-cloud-run up to and including https://codelabs.developers.google.com/codelabs/cloud-run/how-to-deploy-a-secure-mcp-server-on-cloud-run#7. Use:
@@ -21,7 +21,7 @@ Complete the steps in https://codelabs.developers.google.com/codelabs/cloud-run/
     - REGION: us-central1
 ```
 
-RESULT:
+## RESULTS:
 
 Failed for a couple of reasons:
 - new project could not be associated with a billing account (needed me to up quota)
@@ -34,14 +34,14 @@ Apply lessons learned from experiment 1:
 
 Run https://codelabs.developers.google.com/codelabs/cloud-run/how-to-deploy-a-secure-mcp-server-on-cloud-run with basic prompt and rules
 
-PREP:
+## PREP:
 - log into browser and select project with billing enabled
 - define fresh project
     - PROJECT_ID: test-antigravity-dec-2025
     - PROJECT_NUMBER: 870738545502
     - REGION: us-central1
 
-PROMPT:
+## PROMPT:
 
 ```
 Complete the steps in https://codelabs.developers.google.com/codelabs/cloud-run/how-to-deploy-a-secure-mcp-server-on-cloud-run up to and including https://codelabs.developers.google.com/codelabs/cloud-run/how-to-deploy-a-secure-mcp-server-on-cloud-run#7. Use:
@@ -55,5 +55,9 @@ gcloud alpha cloud-shell get-environment
 to confirm access to the Cloud Shell environment (you'll get "running" response to confirm) and then use this pattern run subsequent commands in Cloud Shell:
 
 gcloud cloud-shell ssh --command="..."
+
+## RESULTS:
+
+It worked!
 
 ```
