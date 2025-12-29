@@ -11,3 +11,12 @@ PREP:
     - PROJECT_ID: test-codelabs-dec-2025
     - PROJECT_NUMBER: 632816321420
     - REGION: us-central1
+
+PROMPT:
+
+```
+Complete the steps in https://codelabs.developers.google.com/codelabs/cloud-run/how-to-deploy-a-secure-mcp-server-on-cloud-run up to and including https://codelabs.developers.google.com/codelabs/cloud-run/how-to-deploy-a-secure-mcp-server-on-cloud-run#7. Use:
+    - PROJECT_ID: test-codelabs-dec-2025
+    - PROJECT_NUMBER: 632816321420
+    - REGION: us-central1
+```
