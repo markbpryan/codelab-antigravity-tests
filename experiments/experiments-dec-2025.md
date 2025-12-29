@@ -49,8 +49,11 @@ Complete the steps in https://codelabs.developers.google.com/codelabs/cloud-run/
     - PROJECT_NUMBER: 870738545502
     - REGION: us-central1
 The commands in this codelab need to be run in Cloud Shell, not locally. You can use:
+
 gcloud alpha cloud-shell get-environment
+
 to confirm access to the Cloud Shell environment (you'll get "running" response to confirm) and then use this pattern run subsequent commands in Cloud Shell:
+
 gcloud cloud-shell ssh --command="..."
 
 ```
