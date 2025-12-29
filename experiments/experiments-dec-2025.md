@@ -71,3 +71,31 @@ https://github.com/ryanmark1867/codelab-antigravity-tests/blob/main/experiments/
 - First time through testing a codelab, it's imporant to monitor it manually and approve every action. However, I can see for subsequent runs, once it has successfully run once, consider Settings -> Terminal Command Auto Execution or Allowlist to allow it to run without manual approval https://github.com/ryanmark1867/codelab-antigravity-tests/blob/main/experiments/media/2025-12-28_22-08-10.jpg.
 - Need to think about automating "the last mile". For example, in this run, it got to the end, but it didn't attempt the validation (perhaps because it was really complex / impossible to instrument using the Cloud Shell command line interface). Depending on the preferences of the codelab verifier, we may want to nudge Antigravity to attempt the validation automatically so that we get to the goal of end-to-end completion of a codelab "hands off".
 - ID_TOKEN is not persistent, so need to refresh in subsequent runs or will get an "oauth not authenticated" message when trying to re-run. Overall point is that Antigravity getting successfully through the codelab once doesn't mean that the end result will work flawlessly on repeated tries.
+
+# EXPERIMENT 3
+
+Build on success of Experiment 2 and try the related codelab that has the codelab from experiment 2 as a prerequisite: https://codelabs.developers.google.com/codelabs/cloud-run/use-mcp-server-on-cloud-run-with-an-adk-agent
+
+## PREP:
+- experiment 2 completed and outcome of that experiment still available
+- log into browser and select project with billing enabled
+- define fresh project
+    - PROJECT_ID: test-antigravity-dec-2025
+    - PROJECT_NUMBER: 870738545502
+    - REGION: us-central1
+
+## PROMPT:
+
+```
+Complete the steps in https://codelabs.developers.google.com/codelabs/cloud-run/use-mcp-server-on-cloud-run-with-an-adk-agent up to and including https://codelabs.developers.google.com/codelabs/cloud-run/use-mcp-server-on-cloud-run-with-an-adk-agent#8. Use:
+    - PROJECT_ID: test-antigravity-dec-2025
+    - PROJECT_NUMBER: 870738545502
+    - REGION: us-central1
+The commands in this codelab need to be run in Cloud Shell, not locally. You can use:
+
+gcloud alpha cloud-shell get-environment
+
+to confirm access to the Cloud Shell environment (you'll get "running" response to confirm) and then use this pattern run subsequent commands in Cloud Shell:
+
+gcloud cloud-shell ssh --command="..."
+```
