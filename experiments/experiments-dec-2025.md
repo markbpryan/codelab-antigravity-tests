@@ -65,3 +65,8 @@ https://github.com/ryanmark1867/codelab-antigravity-tests/blob/main/experiments/
 
 https://github.com/ryanmark1867/codelab-antigravity-tests/blob/main/experiments/media/2025-12-28_21-48-40.jpg
 
+## LESSONS LEARNED:
+
+- Since the idea isn't to test how smoothly Antigravity can run commands in Cloud Shell, for Codelabs where the user is expected to run commands in Cloud Shell, include the hints in the prompt (or maybe set up a rule for Cloud Shell-centric runs and set it on by default).
+- First time through testing a codelab, it's imporant to monitor it manually and approve every action. However, I can see for subsequent runs, once it has successfully run once, consider Settings -> Terminal Command Auto Execution or Allowlist to allow it to run without manual approval.
+- Need to think about automating "the last mile". For example, in this run, it got to the end, but it didn't attempt the validation (perhaps because it was really complex / impossible to instrument using the Cloud Shell command line interface). Depending on the preferences of the codelab verifier, we may want to nudge Antigravity to attempt the validation automatically so that we get to the goal of end-to-end completion of a codelab "hands off".
