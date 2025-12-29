@@ -59,7 +59,7 @@ gcloud cloud-shell ssh --command="..."
 
 ## RESULTS:
 
-It worked! *Looks like Gemini CLI in Cloud Shell is intended for darkmode :-)*
+It worked! With the prompt above, it got all the way through the codelab and including the MCP server working in Gemini CLI. I manually verified that the MCP server was working by invoking it in Gemini CLI in Cloud Shell.
 
 https://github.com/ryanmark1867/codelab-antigravity-tests/blob/main/experiments/media/2025-12-28_21-46-13.jpg
 
