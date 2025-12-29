@@ -55,9 +55,13 @@ gcloud alpha cloud-shell get-environment
 to confirm access to the Cloud Shell environment (you'll get "running" response to confirm) and then use this pattern run subsequent commands in Cloud Shell:
 
 gcloud cloud-shell ssh --command="..."
+```
 
 ## RESULTS:
 
-It worked!
+It worked! *Looks like Gemini CLI in Cloud Shell is intended for darkmode :-)*
 
-```
+https://github.com/ryanmark1867/codelab-antigravity-tests/blob/main/experiments/media/2025-12-28_21-46-13.jpg
+
+https://github.com/ryanmark1867/codelab-antigravity-tests/blob/main/experiments/media/2025-12-28_21-48-40.jpg
+
