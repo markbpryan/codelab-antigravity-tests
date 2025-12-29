@@ -2,10 +2,8 @@
 
 Run https://codelabs.developers.google.com/codelabs/cloud-run/how-to-deploy-a-secure-mcp-server-on-cloud-run with basic prompt and rules
 
-Get Antigravity to define its own rule for reasonable actions to take to mimic a journeyman user.
-
 PREP:
-- Define rules for Antigravity to follow
+- Define rules for Antigravity to follow by getting Antigravity to define its own rule for reasonable actions to take to mimic a journeyman user.
 - Confirm that browser opens correctly
     - open https://codelabs.developers.google.com/codelabs/cloud-run/how-to-deploy-a-secure-mcp-server-on-cloud-run in your browser
 - log into browser and console
