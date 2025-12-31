@@ -99,3 +99,6 @@ to confirm access to the Cloud Shell environment (you'll get "running" response 
 
 gcloud cloud-shell ssh --command="..."
 ```
+## RESULTS:
+- value of MODEL was not set correctly (had to correct value to `gemini-2.5-flash`), but once that was corrected, it worked
+- able to successfully use the URL generated at the end of the codelab to start the ADK web interface and get the expected results: 
